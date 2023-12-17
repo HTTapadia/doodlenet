@@ -1,0 +1,27 @@
+h1 {
+    background-color:#f2f2f2;
+}
+
+#show_sketch {
+    float:right;
+}
+
+canvas {
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name:glowy;
+    animation-duration: 3s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes glowy{
+    from{box-shadow:1px 1px 40px black;}
+    to{box-shadow:1px 1px 40px grey;}
+    
+}
+
+p {
+    padding-top:25px;
+    color:black;
+    font-size:20px;
+}
